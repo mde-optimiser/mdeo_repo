@@ -8,11 +8,11 @@ The RELEASE build contains the most recent stable build.
 
 DEV
 
-[http://blog.onboot.org/mdeo_repo/develop/](http://blog.onboot.org/mdeo_repo/develop/)
+[http://mde-optimiser.github.io/mdeo_repo/develop/](http://blog.onboot.org/mdeo_repo/develop/)
 
 RELEASE
 
-[http://blog.onboot.org/mdeo_repo/release/](http://blog.onboot.org/mdeo_repo/release/)
+[http://mde-optimiser.github.io/mdeo_repo/release/](http://blog.onboot.org/mdeo_repo/release/)
 
 ### Build status
 
