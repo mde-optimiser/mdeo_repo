@@ -6,7 +6,7 @@
     <property name="p2.timestamp" value="1243822502440"/>
   </properties>
   <children size="1">
-    <child location="http://blog.onboot.org/mde_optimiser/downloads/eclipse/repository/repository/"/>
+    <child location="https://mde-optimiser.github.io/mde_optimiser/downloads/eclipse/develop/repository"/>
     <child location="http://blog.onboot.org/mopt-p2-repo/target/repository/"/>
     <child location="http://download.eclipse.org/modeling/mdt/ocl/updates/releases/6.1.1/"/>
     <child location="http://download.eclipse.org/modeling/emft/henshin/updates/nightly"/>
