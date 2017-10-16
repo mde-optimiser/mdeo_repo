@@ -8,18 +8,18 @@ The RELEASE build contains the most recent stable build.
 
 DEV
 
-[http://mde-optimiser.github.io/mdeo_repo/develop/](http://blog.onboot.org/mdeo_repo/develop/)
+[http://mde-optimiser.github.io/mdeo_repo/develop/](http://mde-optimiser.github.io/mdeo_repo/develop/)
 
 RELEASE
 
-[http://mde-optimiser.github.io/mdeo_repo/release/](http://blog.onboot.org/mdeo_repo/release/)
+[http://mde-optimiser.github.io/mdeo_repo/release/](mde-optimiser.github.io/mdeo_repo/release/)
 
 ### Build status
 
 DEV Build
 
-![DEVELOP branch build status](https://api.travis-ci.com/alxbrd/mde_optimiser.svg?token=SjJSaZ7VurPs1fvaMioP&amp;branch=develop)
+![DEVELOP branch build status](https://travis-ci.org/mde-optimiser/mde_optimiser.svg?branch=develop)
 
 Release Build
 
-![Master branch build status](https://api.travis-ci.com/alxbrd/mde_optimiser.svg?token=SjJSaZ7VurPs1fvaMioP&amp;branch=master)
+![Master branch build status](https://travis-ci.org/mde-optimiser/mde_optimiser.svg?branch=master)
