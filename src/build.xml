@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<project name="build" default="dist">
+
+    <property name="dependencies.basedir" location="${jar}/../../" />
+    
+    <target name="default" depends="dist"/>
+
+    <target name="dist" depends="cbiaggr.dependencies"/>
+
+    <target name="cbiaggr.exists" description="Check if CBIAggregator already exists">
+      <!-- Set jar.symlink.notexist to true if ${WORKDIR}/jar symlink does not exist -->
+      <condition property="cbiaggr.file.not.exists">
+        <not>
+            <available file="${dependencies.basedir}/build/cbiAggr/" property="cbiaggr.file.exists" />
+          </not>
+      </condition>
+    </target>
+
+    <target name="cbiaggr.download" depends="cbiaggr.exists" description="Download CBIAggregator" if="cbiaggr.file.not.exists">
+
+      <mkdir dir="${dependencies.basedir}/build"/>
+
+      <get src="http://download.eclipse.org/cbi/updates/aggregator/headless/4.8/I20180518-0759/headless_I20180518-0759_linux.gtk.x86_64.tar.gz"
+        dest="${dependencies.basedir}/build/cbiaggr.tar.gz"/>
+
+        <gunzip src="${dependencies.basedir}/build/cbiaggr.tar.gz"/>
+
+        <untar src="${dependencies.basedir}/build/cbiaggr.tar"
+          dest="${dependencies.basedir}/build/"/>
+
+        <delete file="${dependencies.basedir}/build/cbiaggr.tar"/>
+        <delete file="${dependencies.basedir}/build/cbiaggr.tar.gz"/>
+    </target>
+
+    <target name="cbiaggr.dependencies" depends="cbiaggr.download">
+
+        <java dir="${dependencies.basedir}/build/cbiAggr"
+            jar="${dependencies.basedir}/build/cbiAggr/plugins/org.eclipse.equinox.launcher_1.5.0.v20180207-1446.jar"
+            fork="true"
+            failonerror="true"
+            maxmemory="128m">
+        <arg value="aggregate"/>
+        <arg value="--buildModel"/>
+        <arg value="${dependencies.basedir}/src/uk.ac.kcl.inf.mdeoptimiser.repositories.p2.eclipse/src/uk.ac.kcl.mdeo.repository.p2.eclipse.aggr"/>
+        </java>
+
+    </target>
+
+    <!-- Copy the MDEOptimiser P2 composite website configuration to the newly created repository folder -->
+    <!-- This might not be necessary actually because all these bundles are created by using the reficio configuration -->
+    <target name="copy.composite" depends="cbiaggr.dependencies">
+
+      <copy todir="${dependencies.basedir}/repository/p2/eclipse/2019-03/">
+        <fileset dir="${dependencies.basedir}/src/composite"/>
+      </copy>
+
+    </target>
+
+</project>

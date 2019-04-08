@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd" xsi:noNamespaceSchemaLocation="http://maven.apache.org/POM/4.0.0">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.apache.batik</groupId>
+  <artifactId>org.apache.batik.ext.awt</artifactId>
+  <version>1.6.0</version>
+  <description>Apache Batik AWT Utilities</description>
+  <dependencies>
+    <dependency>
+      <groupId>org.apache.batik</groupId>
+      <artifactId>org.apache.batik.util</artifactId>
+      <version>[1.6.0,1.7.0)</version>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.batik</groupId>
+      <artifactId>org.apache.batik.util.gui</artifactId>
+      <version>[1.6.0,1.7.0)</version>
+    </dependency>
+  </dependencies>
+</project>
