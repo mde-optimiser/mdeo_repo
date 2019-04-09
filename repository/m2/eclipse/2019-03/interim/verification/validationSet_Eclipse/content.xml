@@ -2,7 +2,7 @@
 <?metadataRepository version='1.2.0'?>
 <repository name='Eclipse Dependencies / Eclipse Verification repository' type='org.eclipse.equinox.internal.p2.metadata.repository.LocalMetadataRepository' version='1'>
   <properties size='1'>
-    <property name='p2.timestamp' value='1554747127725'/>
+    <property name='p2.timestamp' value='1554831434761'/>
   </properties>
   <units size='5'>
     <unit id='mappedRepo_download.eclipse.org_modeling_emft_henshin_updates_nightly' version='1.0.0' singleton='false'>
@@ -87,9 +87,9 @@
         <provided namespace='org.eclipse.equinox.p2.iu' name='validationSet_Eclipse' version='1.0.0'/>
       </provides>
       <requires size='3'>
+        <required namespace='org.eclipse.equinox.p2.iu' name='mappedRepo_download.eclipse.org_releases_2019-03' range='[1.0.0,1.0.0]'/>
         <required namespace='org.eclipse.equinox.p2.iu' name='mappedRepo_blog.onboot.org_org.sidiff.serge_deploy_serge-p2-repo_target_repository' range='[1.0.0,1.0.0]'/>
         <required namespace='org.eclipse.equinox.p2.iu' name='mappedRepo_download.eclipse.org_modeling_emft_henshin_updates_nightly' range='[1.0.0,1.0.0]'/>
-        <required namespace='org.eclipse.equinox.p2.iu' name='mappedRepo_download.eclipse.org_releases_2019-03' range='[1.0.0,1.0.0]'/>
       </requires>
       <touchpoint id='null' version='0.0.0'/>
     </unit>
