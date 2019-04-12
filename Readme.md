@@ -39,3 +39,10 @@ The repositories are organised based on Eclipse version as follows:
 2. Update the target Eclipse version directory in src/uk.ac.kcl.inf.mdeoptimiser.repositories.p2.eclipse/src/uk.ac.kcl.mdeo.repository.p2.eclipse.aggr:2
 3. Update the Eclipse P2 update sites in src/uk.ac.kcl.inf.mdeoptimiser.repositories.p2.eclipse/src/uk.ac.kcl.mdeo.repository.p2.eclipse.aggr
 4. If required update the MDEOptimiser parent pom file to point to the newly created repository.
+
+### Updating the MOEAFramework version
+
+1. Update the build version in META-INF/build.properties
+2. Run the ant build task `ant package-maven`
+3. Copy the compiled jar files to the moeaframework folder in this repository
+4. Push the update to this repository
