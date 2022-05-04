@@ -3,7 +3,7 @@
 <repository name='Eclipse Source Composite' type='org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository' version='1'>
   <properties size='2'>
     <property name='p2.atomic.composite.loading' value='true'/>
-    <property name='p2.timestamp' value='1554831434769'/>
+    <property name='p2.timestamp' value='1651652964833'/>
   </properties>
   <children size='4'>
     <child location='http://download.eclipse.org/modeling/emft/henshin/updates/nightly'/>
