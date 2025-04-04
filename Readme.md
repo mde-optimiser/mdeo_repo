@@ -35,10 +35,12 @@ The repositories are organised based on Eclipse version as follows:
 
 ### Updating the Eclipse version:
 
-1. Update the repository copy path in src/build.xml:52
-2. Update the target Eclipse version directory in src/uk.ac.kcl.inf.mdeoptimiser.repositories.p2.eclipse/src/uk.ac.kcl.mdeo.repository.p2.eclipse.aggr:2
+1. Update the repository copy path in src/build.xml:53
+2. Update the target Eclipse version directory in src/uk.ac.kcl.inf.mdeoptimiser.repositories.p2.eclipse/src/uk.ac.kcl.mdeo.repository.p2.eclipse.aggr:6
 3. Update the Eclipse P2 update sites in src/uk.ac.kcl.inf.mdeoptimiser.repositories.p2.eclipse/src/uk.ac.kcl.mdeo.repository.p2.eclipse.aggr
-4. If required update the MDEOptimiser parent pom file to point to the newly created repository.
+4. Run `ant` in `./src`
+5. Publish by merging into `master` on GitHub
+6. If required update the MDEOptimiser parent pom file to point to the newly created repository.
 
 ### Updating the MOEAFramework version
 

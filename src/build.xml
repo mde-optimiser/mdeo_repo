@@ -50,7 +50,7 @@
     <!-- This might not be necessary actually because all these bundles are created by using the reficio configuration -->
     <target name="copy.composite" depends="cbiaggr.dependencies">
 
-      <copy todir="${dependencies.basedir}/repository/p2/eclipse/2019-03/">
+      <copy todir="${dependencies.basedir}/repository/p2/eclipse/2025-03/">
         <fileset dir="${dependencies.basedir}/src/composite"/>
       </copy>
 
