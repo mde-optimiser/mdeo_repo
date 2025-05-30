@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd" xsi:noNamespaceSchemaLocation="http://maven.apache.org/POM/4.0.0">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.eclipse.orbit</groupId>
+  <artifactId>org.eclipse.orbit.xml-apis-ext</artifactId>
+  <version>1.0.0</version>
+  <description>Extended XML APIs</description>
+  <dependencies>
+    <dependency>
+      <groupId>org.eclipse.orbit</groupId>
+      <artifactId>org.eclipse.orbit.xml-apis-ext</artifactId>
+      <version>[1.0.0,1.0.0]</version>
+      <optional>true</optional>
+    </dependency>
+  </dependencies>
+</project>
