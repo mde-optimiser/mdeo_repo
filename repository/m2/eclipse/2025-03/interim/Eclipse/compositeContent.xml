@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?compositeMetadataRepository version='1.0.0'?>
+<repository name='Eclipse Source Composite' type='org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository' version='1'>
+  <properties size='2'>
+    <property name='p2.atomic.composite.loading' value='true'/>
+    <property name='p2.timestamp' value='1748618730406'/>
+  </properties>
+  <children size='4'>
+    <child location='http://download.eclipse.org/modeling/emft/henshin/updates/release'/>
+    <child location='https://mde-optimiser.github.io/org.sidiff.serge/repository'/>
+    <child location='http://download.eclipse.org/releases/2025-03'/>
+    <child location='file:/C:/git/MDEOptimiser/mdeo_repo/repository/m2/eclipse/2025-03/interim/verification/validationSet_Eclipse'/>
+  </children>
+</repository>

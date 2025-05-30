@@ -1,5 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<aggregator:Aggregation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/cbi/p2repo/2011/aggregator/1.1.0" label="Eclipse Dependencies" buildRoot="../../../repository/m2/eclipse/2019-03" packedStrategy="UNPACK" type="M" mavenResult="true" versionFormat="MavenRelease">
+<aggregator:Aggregation xmi:version="2.0" 
+                        xmlns:xmi="http://www.omg.org/XMI" 
+                        xmlns:aggregator="http://www.eclipse.org/cbi/p2repo/2011/aggregator/1.1.0" 
+                        label="Eclipse Dependencies" 
+                        buildRoot="../../../repository/m2/eclipse/2025-03" 
+                        packedStrategy="UNPACK" 
+                        type="M" 
+                        mavenResult="true" 
+                        versionFormat="MavenRelease">
   <validationSets label="Eclipse">
     <contributions label="Eclipse">
       <!--<repositories location="http://download.eclipse.org/modeling/emft/mwe/updates/releases/2.9.1/">
@@ -8,15 +16,15 @@
       <repositories location="http://download.eclipse.org/modeling/tmf/xtext/updates/releases/2.16.0/">
         <features name="org.eclipse.xtext.sdk.feature.group"/>
       </repositories>-->
-      <repositories location="http://download.eclipse.org/modeling/emft/henshin/updates/nightly">
+      <repositories location="http://download.eclipse.org/modeling/emft/henshin/updates/release">
         <bundles name="org.eclipse.emf.henshin.interpreter"/>
         <bundles name="org.eclipse.emf.henshin.model"/>
         <bundles name="org.eclipse.emf.henshin.trace"/>
         <bundles name="org.eclipse.emf.henshin.multicda.cpa"/>
         <bundles name="org.eclipse.emf.henshin.multicda.cda"/>
       </repositories>
-      <repositories location="http://blog.onboot.org/org.sidiff.serge/deploy/serge-p2-repo/target/repository/"/>
-      <repositories location="http://download.eclipse.org/releases/2019-03">
+      <repositories location="https://mde-optimiser.github.io/org.sidiff.serge/repository"/>
+      <repositories location="http://download.eclipse.org/releases/2025-03">
         <bundles name="org.eclipse.emf.ecore.xmi"/>
         <bundles name="org.eclipse.equinox.common"/>
         <bundles name="org.eclipse.osgi"/>

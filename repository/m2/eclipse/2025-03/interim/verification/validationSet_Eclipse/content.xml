@@ -1,0 +1,97 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?metadataRepository version='1.2.0'?>
+<repository name='Eclipse Dependencies / Eclipse Verification repository' type='org.eclipse.equinox.internal.p2.metadata.repository.LocalMetadataRepository' version='1'>
+  <properties size='1'>
+    <property name='p2.timestamp' value='1748618730397'/>
+  </properties>
+  <units size='5'>
+    <unit id='Cannot be installed into the IDE' version='0.0.0' singleton='false'>
+      <properties size='1'>
+        <property name='org.eclipse.cbi.p2repo.aggregator.generated.IU' value='true'/>
+      </properties>
+      <provides size='1'>
+        <provided namespace='A.PDE.Target.Platform' name='Cannot be installed into the IDE' version='0.0.0'/>
+      </provides>
+      <touchpoint id='null' version='0.0.0'/>
+    </unit>
+    <unit id='validationSet_Eclipse' version='1.0.0' singleton='false'>
+      <properties size='2'>
+        <property name='org.eclipse.equinox.p2.type.group' value='true'/>
+        <property name='org.eclipse.cbi.p2repo.aggregator.generated.IU' value='true'/>
+      </properties>
+      <provides size='1'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='validationSet_Eclipse' version='1.0.0'/>
+      </provides>
+      <requires size='3'>
+        <required namespace='org.eclipse.equinox.p2.iu' name='mappedRepo_download.eclipse.org_releases_2025-03' range='[1.0.0,1.0.0]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='mappedRepo_download.eclipse.org_modeling_emft_henshin_updates_release' range='[1.0.0,1.0.0]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='mappedRepo_mde-optimiser.github.io_org.sidiff.serge_repository' range='[1.0.0,1.0.0]'/>
+      </requires>
+      <touchpoint id='null' version='0.0.0'/>
+    </unit>
+    <unit id='mappedRepo_download.eclipse.org_releases_2025-03' version='1.0.0' singleton='false'>
+      <properties size='3'>
+        <property name='org.eclipse.equinox.p2.type.group' value='true'/>
+        <property name='org.eclipse.cbi.p2repo.aggregator.model.element.URI' value='#//@validationSets[label=&apos;Eclipse&apos;]/@contributions[label=&apos;Eclipse&apos;]/@repositories.2'/>
+        <property name='org.eclipse.cbi.p2repo.aggregator.generated.IU' value='true'/>
+      </properties>
+      <provides size='1'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='mappedRepo_download.eclipse.org_releases_2025-03' version='1.0.0'/>
+      </provides>
+      <requires size='19'>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.osgi' range='0.0.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.core.expressions' range='0.0.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.equinox.app' range='0.0.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.equinox.registry' range='0.0.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.core.jobs' range='0.0.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.ocl.common' range='0.0.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.emf.common' range='0.0.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.emf.ecore.xmi' range='0.0.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.equinox.preferences' range='0.0.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='lpg.runtime.java' range='0.0.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.core.filesystem' range='0.0.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.emf.ecore.change' range='0.0.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.equinox.common' range='0.0.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.core.variables' range='0.0.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.emf.ecore' range='0.0.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.debug.core' range='0.0.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.core.runtime' range='0.0.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.ocl.ecore' range='0.0.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.core.contenttype' range='0.0.0'/>
+      </requires>
+      <touchpoint id='null' version='0.0.0'/>
+    </unit>
+    <unit id='mappedRepo_download.eclipse.org_modeling_emft_henshin_updates_release' version='1.0.0' singleton='false'>
+      <properties size='3'>
+        <property name='org.eclipse.equinox.p2.type.group' value='true'/>
+        <property name='org.eclipse.cbi.p2repo.aggregator.model.element.URI' value='#//@validationSets[label=&apos;Eclipse&apos;]/@contributions[label=&apos;Eclipse&apos;]/@repositories.0'/>
+        <property name='org.eclipse.cbi.p2repo.aggregator.generated.IU' value='true'/>
+      </properties>
+      <provides size='1'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='mappedRepo_download.eclipse.org_modeling_emft_henshin_updates_release' version='1.0.0'/>
+      </provides>
+      <requires size='5'>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.emf.henshin.model' range='0.0.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.emf.henshin.trace' range='0.0.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.emf.henshin.multicda.cda' range='0.0.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.emf.henshin.multicda.cpa' range='0.0.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.emf.henshin.interpreter' range='0.0.0'/>
+      </requires>
+      <touchpoint id='null' version='0.0.0'/>
+    </unit>
+    <unit id='mappedRepo_mde-optimiser.github.io_org.sidiff.serge_repository' version='1.0.0' singleton='false'>
+      <properties size='3'>
+        <property name='org.eclipse.equinox.p2.type.group' value='true'/>
+        <property name='org.eclipse.cbi.p2repo.aggregator.model.element.URI' value='#//@validationSets[label=&apos;Eclipse&apos;]/@contributions[label=&apos;Eclipse&apos;]/@repositories.1'/>
+        <property name='org.eclipse.cbi.p2repo.aggregator.generated.IU' value='true'/>
+      </properties>
+      <provides size='1'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='mappedRepo_mde-optimiser.github.io_org.sidiff.serge_repository' version='1.0.0'/>
+      </provides>
+      <requires size='1'>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.sidiff.serge.feature.feature.group' range='0.0.0'/>
+      </requires>
+      <touchpoint id='null' version='0.0.0'/>
+    </unit>
+  </units>
+</repository>

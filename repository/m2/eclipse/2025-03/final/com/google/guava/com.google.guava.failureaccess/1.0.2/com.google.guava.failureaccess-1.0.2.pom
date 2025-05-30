@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd" xsi:noNamespaceSchemaLocation="http://maven.apache.org/POM/4.0.0">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.google.guava</groupId>
+  <artifactId>com.google.guava.failureaccess</artifactId>
+  <version>1.0.2</version>
+  <description>Guava InternalFutureFailureAccess and InternalFutures
+
+Contains    com.google.common.util.concurrent.internal.InternalFutureFailureAccess and    InternalFutures. Most users will never need to use this artifact. Its    classes are conceptually a part of Guava, but they're in this separate    artifact so that Android libraries can use them without pulling in all of    Guava (just as they can use ListenableFuture by depending on the    listenablefuture artifact).</description>
+  <dependencies>
+    <dependency>
+      <groupId>com.google.guava</groupId>
+      <artifactId>com.google.guava.failureaccess</artifactId>
+      <version>[1.0.2,1.0.2]</version>
+      <optional>true</optional>
+    </dependency>
+  </dependencies>
+</project>
