@@ -23,7 +23,7 @@
         <bundles name="org.eclipse.emf.henshin.multicda.cpa"/>
         <bundles name="org.eclipse.emf.henshin.multicda.cda"/>
       </repositories>
-      <repositories location="http://blog.onboot.org/org.sidiff.serge/deploy/serge-p2-repo/target/repository/"/>
+      <repositories location="https://mde-optimiser.github.io/org.sidiff.serge/repository"/>
       <repositories location="http://download.eclipse.org/releases/2025-03">
         <bundles name="org.eclipse.emf.ecore.xmi"/>
         <bundles name="org.eclipse.equinox.common"/>
